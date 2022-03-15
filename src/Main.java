@@ -9,9 +9,15 @@ public class Main {
         double numFirst = Math.random();
         double numSecond = Math.random();
 
-        int total = (int) ((numFirst + numSecond) * 100);
+        int totalSum = (int) ((numFirst + numSecond) * 100);
 
-        System.out.println("The sum of two random numbers is " + (total) + "!");
+        //System.out.println("The sum of two random numbers is " + (totalSum) + "!");
+
+
+        //Changing program to do subtraction
+        int totalDiff = (int) (Math.abs(numFirst - numSecond) * 100);
+
+        System.out.println("The absolute difference of two random numbers is " + (totalSum) + "!");
 
 
 
