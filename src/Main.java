@@ -14,5 +14,6 @@ public class Main {
         System.out.println("The sum of two random numbers is " + (total) + "!");
 
 
+
     }
 }
